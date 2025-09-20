@@ -10,7 +10,7 @@ public class Dosen {
         this.nip = nip;
         this.alamat = alamat;
         this.email = email;
-        this.noTelp = noTelp;
+        // this.noTelp = noTelp;
     }
 
     public void tampilkanDosen() {
@@ -18,6 +18,6 @@ public class Dosen {
         System.out.println("NIP: " + nip);
         System.out.println("Alamat: " + alamat);
         System.out.println("Email: " + email);
-        System.out.println("No. Telp: " + noTelp);
+        // System.out.println("No. Telp: " + noTelp);
     }
 }
